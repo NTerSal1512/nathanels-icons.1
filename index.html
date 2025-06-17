@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathanel's Icons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #ffcc00;
+      color: #333;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 150px;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+    main {
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #ffcc00;
+      color: #333;
+      padding: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Nathanel's Icons Logo">
+    <h1>Nathanel's Icons</h1>
+    <p>Beautiful 8x10 Catholic/Orthodox Saint Canvas Icons - $10 each</p>
+  </header>
+
+  <main>
+    <form action="mailto:nathanelterrones@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Your Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="saint">Requested Saint for the Icon</label>
+      <input type="text" id="saint" name="saint" required>
+
+      <label for="address">Shipping Address</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+
+      <p><strong>Payment is completed through the app Zelle.</strong></p>
+      <p>Please send $10 per icon to: <strong>720-569-5763</strong></p>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Contact Info: 720-569-5763 | nathanelterrones@gmail.com</p>
+    <p>Your information will be sent directly to this contact for processing.</p>
+  </footer>
+</body>
+</html>
